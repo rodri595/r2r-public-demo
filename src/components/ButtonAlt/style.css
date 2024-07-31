@@ -1,0 +1,85 @@
+.ButtonAlt--container {
+  flex-shrink: 0;
+  transition: all 0.3s ease-in-out;
+  padding: 12px 24px;
+  gap: 8px;
+  border-radius: 48px;
+  background: var(--Color-Surface-Brand, #0c68e9);
+  border: 1px solid transparent;
+  color: #fcfcfc;
+  font-family: var(--font-family2);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.15px;
+}
+.ButtonAlt--container:hover {
+  background: #1380fd;
+}
+
+.ButtonAlt-secondary {
+  background: #1a1d1f;
+}
+.ButtonAlt-secondary:hover {
+  background: var(--w);
+  border: 1px solid var(--b);
+  color: var(--b);
+}
+
+.ButtonAlt-danger {
+  background: #fde6d7;
+  color: #f04d1a;
+}
+.ButtonAlt-danger:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    #f04d1a;
+  color: #fff;
+}
+.ButtonAlt-success {
+  background: #dff9e8;
+  color: #32ae60;
+}
+.ButtonAlt-success:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    #32ae60;
+  color: #fff;
+}
+.ButtonAlt-warning {
+  background: var(--warning);
+}
+.ButtonAlt-warning:hover {
+  color: var(--warning);
+  background: var(--w);
+}
+
+.ButtonAlt--container:disabled {
+  color: #a7acb0;
+  background: #e7e9eb;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ButtonAlt-full {
+  width: 100%;
+}
+.ButtonAlt-box {
+  border-radius: 8px;
+}
+.ButtonAlt-small {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 160%;
+}

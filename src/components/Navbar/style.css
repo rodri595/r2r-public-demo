@@ -1,0 +1,75 @@
+.navbar--container {
+  width: 100%;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 28px 32px;
+  backdrop-filter: blur(3px);
+}
+
+.navbar-brand-box {
+  width: 33%;
+  justify-content: flex-start;
+}
+.navbar-links,
+.navbar-links-referral {
+  width: 33%;
+  flex-grow: 1;
+  gap: 48px;
+}
+.navbar-btns {
+  width: 33%;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.navbar-brand-logo {
+  width: 60px;
+  /* height: 50px; */
+  /* border: 1px dashed red; */
+}
+.navbar-wait {
+  border: 1px solid transparent;
+  color: #fcfcfc;
+  font-family: var(--font-family2);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.15px;
+}
+
+.DashboardNavbar-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--g2);
+  background: lightgray 50% / cover no-repeat,
+    linear-gradient(180deg, #cbded5 0%, #a5d0bb 100%);
+}
+.DashboardNavbar-avatar > img {
+  object-fit: cover;
+}
+.DashboardNavbar-avatar-open {
+  border: 2px solid var(--p);
+}
+.navbar-metamask-btn {
+  padding: 8px 6px 8px 8px !important;
+}
+
+.navbar-link {
+  color: #212121;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px; /* 125% */
+}
+@media screen and (max-width: 1090px) {
+  .navbar--container {
+    padding: 28px 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.spinner-full {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.spinner--container {
+  gap: 0.5rem;
+}
+
+.spinner--container > div > svg {
+  scale: 2;
+}

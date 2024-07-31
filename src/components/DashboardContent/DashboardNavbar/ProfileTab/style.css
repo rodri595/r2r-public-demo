@@ -1,0 +1,195 @@
+.ProfileTab-backdrop {
+  position: fixed;
+  height: 100dvh;
+  width: 100vw;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  visibility: visible;
+  opacity: 0.2;
+  background: #111315;
+}
+.ProfileTab-backdrop-close {
+  position: fixed;
+  height: 100dvh;
+  width: 100vw;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  background: #111315;
+}
+.ProfileTab--container,
+.ProfileTab--container-close {
+  position: fixed;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 100px;
+
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+  z-index: 2;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.05),
+    0px 32px 48px -8px rgba(0, 0, 0, 0.1);
+
+  padding: 12px;
+  gap: 9px;
+  width: 100%;
+  max-width: 326px;
+}
+.ProfileTab--container-close {
+  top: 80px;
+  visibility: hidden;
+  opacity: 0;
+}
+.ProfileTab-user {
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 16px;
+  border-radius: 12px;
+  background: #f4f4f4;
+  padding: 12px;
+}
+.ProfileTab-user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: lightgray 50% / cover no-repeat,
+    linear-gradient(180deg, #cbded5 0%, #a5d0bb 100%);
+}
+
+.ProfileTab-user-avatar > img {
+  object-fit: cover;
+}
+.ProfileTab-user-info {
+  overflow: hidden;
+  width: 100%;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #1a1d1f;
+}
+.ProfileTab-user-name {
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+  letter-spacing: -0.2px;
+}
+.ProfileTab-user-sub {
+  font-size: 12px;
+  width: 100%;
+}
+.ProfileTab-links {
+  display: none;
+}
+.ProfileTab-links2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  max-height: calc(100dvh - 200px);
+  overflow: auto;
+}
+
+.ProfileTab-link,
+.ProfileTab-link-active {
+  padding: 12px 16px;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  gap: 16px;
+  border-radius: 48px;
+  border: 1px solid transparent;
+}
+.ProfileTab-link > svg {
+  color: #6f767e;
+}
+.ProfileTab-link-name {
+  color: #6f767e;
+  font-family: var(--font-family2);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.075px;
+}
+
+.ProfileTab-link-active {
+  background: #efefef;
+  color: #1a1d1f !important;
+}
+.ProfileTab-link-active > .ProfileTab-link-name {
+  color: #1a1d1f !important;
+}
+
+.ProfileTab-link:hover {
+  border: 1px solid #efefef;
+}
+.ProfileTab-link:hover > svg,
+.ProfileTab-link:hover > .ProfileTab-link-name {
+  color: #1a1d1f !important;
+}
+.ProfileTab-close {
+  justify-content: flex-end;
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .ProfileTab--container,
+  .ProfileTab--container-close {
+    right: 16px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 768px) {
+  .ProfileTab-backdrop,
+  .ProfileTab-backdrop-close {
+    display: none;
+  }
+  .ProfileTab--container,
+  .ProfileTab--container-close {
+    top: 88px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 88px);
+    max-width: revert;
+    border-radius: 0px;
+    background: #f4f4f4;
+    justify-content: space-between;
+  }
+  .ProfileTab--container-alt {
+    top: 0;
+    height: 100%;
+  }
+  .ProfileTab-user {
+    display: none;
+  }
+
+  .ProfileTab-links {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    justify-content: flex-start;
+    height: 100%;
+    overflow: auto;
+  }
+  .ProfileTab-links2 {
+    display: none;
+  }
+}

@@ -1,0 +1,94 @@
+.button--container {
+  flex-shrink: 0;
+  color: var(--w);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 21px;
+  gap: 8px;
+
+  border-radius: 39px;
+  background: var(--Black-900, #121212);
+
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  border: 1px solid var(--b);
+}
+.button--container:hover {
+  background: var(--w);
+  color: var(--b);
+}
+
+.button--container:active {
+  color: var(--p);
+}
+
+.button-secondary {
+  color: var(--w);
+  border: 1px solid var(--w);
+  background: transparent;
+}
+
+.button-secondary:hover {
+  border: 1px solid var(--b);
+  background: var(--w);
+  color: var(--b);
+}
+.button-secondary:active {
+  background: var(--b);
+  color: var(--w);
+}
+
+.button-danger {
+  border: 1px solid var(--error);
+  background: var(--error);
+}
+.button-danger:hover {
+  border: 1px solid var(--error);
+  color: var(--error);
+  background: var(--w);
+}
+.button-success {
+  border: 1px solid var(--success);
+  background: var(--success);
+}
+.button-success:hover {
+  border: 1px solid var(--success);
+  color: var(--success);
+  background: var(--w);
+}
+.button-warning {
+  border: 1px solid var(--warning);
+  background: var(--warning);
+}
+.button-warning:hover {
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  background: var(--w);
+}
+
+.button--container:disabled {
+  background: var(--Black-900, #121212);
+  color: var(--g2);
+  border: 1px solid var(--g2);
+  cursor: not-allowed;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button--container:disabled:hover {
+  border: 1px solid var(--b);
+}
+.button-full {
+  width: 100%;
+}
+.button-box {
+  border-radius: 8px;
+}

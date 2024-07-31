@@ -1,0 +1,31 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g clip-path="url(#clip0_924_146602)">
+        <g clip-path="url(#clip1_924_146602)">
+            <rect width="80" height="80" fill="#E6E6E6" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M33 32C32.4477 32 32 32.4477 32 33V47C32 47.5523 32.4477 48 33 48H47C47.5523 48 48 47.5523 48 47V33C48 32.4477 47.5523 32 47 32H33ZM30 33C30 31.3431 31.3431 30 33 30H47C48.6569 30 50 31.3431 50 33V47C50 48.6569 48.6569 50 47 50H33C31.3431 50 30 48.6569 30 47V33Z"
+                fill="#9A9A9A" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M36.5 36C36.2239 36 36 36.2239 36 36.5C36 36.7761 36.2239 37 36.5 37C36.7761 37 37 36.7761 37 36.5C37 36.2239 36.7761 36 36.5 36ZM34 36.5C34 35.1193 35.1193 34 36.5 34C37.8807 34 39 35.1193 39 36.5C39 37.8807 37.8807 39 36.5 39C35.1193 39 34 37.8807 34 36.5Z"
+                fill="#9A9A9A" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M43.2929 37.2929C43.6834 36.9024 44.3166 36.9024 44.7071 37.2929L49.7071 42.2929C50.0976 42.6834 50.0976 43.3166 49.7071 43.7071C49.3166 44.0976 48.6834 44.0976 48.2929 43.7071L44 39.4142L33.7071 49.7071C33.3166 50.0976 32.6834 50.0976 32.2929 49.7071C31.9024 49.3166 31.9024 48.6834 32.2929 48.2929L43.2929 37.2929Z"
+                fill="#9A9A9A" />
+            <rect width="80" height="80" fill="url(#pattern0)" />
+        </g>
+    </g>
+    <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_924_146602" transform="scale(0.03125)" />
+        </pattern>
+        <clipPath id="clip0_924_146602">
+            <rect width="80" height="80" rx="12" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_924_146602">
+            <rect width="80" height="80" fill="white" />
+        </clipPath>
+        <image id="image0_924_146602" width="32" height="32"
+            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAaSURBVHgB7cABAQAAAIIg/69uSFAAAADAuwEQIAABrSYnKgAAAABJRU5ErkJggg==" />
+    </defs>
+</svg>
